@@ -20,7 +20,7 @@ jobs:
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v2
         with:
-          terraform_version: "1.0.0"  # Ajuste para a versão desejada
+          terraform_version: "1.5.0"  # Ajuste para a versão desejada
 
       - name: Debug Verificar PATH e Terraform
         run: |
