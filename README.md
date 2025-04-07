@@ -1,1 +1,2 @@
-# terraform_aula_01
+# terra_aula_01
+Aula01_terraform
