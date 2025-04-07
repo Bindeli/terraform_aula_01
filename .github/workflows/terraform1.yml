@@ -22,7 +22,7 @@ jobs:
         with:
           terraform_version: "1.0.0"  # Ajuste para a versão desejada
 
-      - name: Debug: Verificar PATH e Terraform
+      - name: Debug Verificar PATH e Terraform
         run: |
           echo "PATH atual: $PATH"
           which terraform || echo "terraform não encontrado no PATH"
