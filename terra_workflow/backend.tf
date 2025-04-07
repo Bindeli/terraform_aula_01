@@ -1,7 +1,7 @@
 # backend config
 
 terraform {
-  required_version = "~> 1.5"
+  required_version = "~> 1.0"
   backend "gcs" {
     bucket  = "terraform_aula_bindeli"
     prefix  = "tfolder/arquivo_teste.txt"
